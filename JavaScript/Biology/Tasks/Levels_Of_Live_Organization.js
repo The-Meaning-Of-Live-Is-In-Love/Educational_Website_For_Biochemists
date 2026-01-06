@@ -140,7 +140,7 @@ if (Number_Task == 27)
 document.write(Task);
 function Answer (id) {
     Task_Answer_2 = document.getElementById(id).value;
-    if(Task_Answer_2 === Task_Answer)
+    if(Task_Answer_2.toLowerCase() === Task_Answer.toLowerCase())
     {
         alert("Верно!");
     }
