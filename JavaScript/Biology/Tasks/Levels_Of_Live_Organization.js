@@ -146,6 +146,6 @@ function Answer (id) {
     }
     else
     {
-        alert("Неверно.");
+        alert("Неверно. Правильный ответ — " + Task_Answer.toLowerCase());
     }
 }
