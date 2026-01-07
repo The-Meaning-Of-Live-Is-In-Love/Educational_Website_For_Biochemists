@@ -1,7 +1,15 @@
 .Main_Text{
+    width: 500px;
+    height: 500px;
     margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px 30px;
+    overflow: auto;
+    text-align: justify;
+    line-height: 125%;
 }
 .Title_Text{
     font-weight: bold;
 }
+
 
