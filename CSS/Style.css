@@ -1,3 +1,6 @@
 .Main_Text{
     margin: 10px;
 }
+.Title__Highlighted_Text{
+    font-weight: bold;
+}
