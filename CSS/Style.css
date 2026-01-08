@@ -3,6 +3,12 @@
     font-size: 20px;
     background-color: #f4f4f4;
 }
+#Navigation
+{
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
 Main_Text
 {
     margin-left: 100px;
@@ -20,4 +26,3 @@ p
     margin-top: var(--padding-top-bottom);
     margin-bottom: var(--padding-top-bottom);
 }
-
