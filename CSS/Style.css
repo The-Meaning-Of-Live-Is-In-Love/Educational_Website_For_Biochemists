@@ -1,13 +1,17 @@
-.Main_Text{
+Main_Text
+{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
-    padding: 15px 15px 15px 15px;
+    padding: 0px 15px 30px 15px;
     border: 1px solid #ccc;
     border-radius: 15px 30px 5px 40px;
     text-align: justify;
-    line-height: 200%;
+    line-height: 150%;
 }
-.Title_Text{
-    font-weight: bold;
+p
+{
+    --padding-top-bottom: 0em;
+    margin-top: var(--padding-top-bottom);
+    margin-bottom: var(--padding-top-bottom);
 }
