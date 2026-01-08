@@ -9,7 +9,7 @@
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
-Main_Text
+.Main_Text
 {
     margin-left: 100px;
     margin-right: 100px;
@@ -26,3 +26,4 @@ p
     margin-top: var(--padding-top-bottom);
     margin-bottom: var(--padding-top-bottom);
 }
+
