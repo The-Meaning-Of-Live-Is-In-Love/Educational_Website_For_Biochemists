@@ -24,9 +24,13 @@
     text-align: justify;
     line-height: 150%;
 }
+.Main_Text_Header
+{
+    text-align: center;
+}
 p
 {
-    --padding-top-bottom: 0em;
+    --padding-top-bottom: 1.25em;
     margin-top: var(--padding-top-bottom);
     margin-bottom: var(--padding-top-bottom);
 }
