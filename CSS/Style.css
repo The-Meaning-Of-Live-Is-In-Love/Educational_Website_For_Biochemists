@@ -13,6 +13,16 @@
     border-bottom: 1px solid #ccc;
     text-shadow: 5px 5px 5px #ccf;
 }
+#Navigation ul
+{
+    display: flex;
+}
+#Navigation li
+{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
 .Main_Text
 {
     margin-left: 100px;
@@ -34,3 +44,4 @@ p
     margin-top: var(--padding-top-bottom);
     margin-bottom: var(--padding-top-bottom);
 }
+
