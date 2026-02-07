@@ -4,7 +4,8 @@
     font-size: 20px;
     background-color: #FFFAFA;
 }
-.Navigation
+.Navigation,
+.Navigation_2
 {
     text-align: center;
     background-color: #FFFAFA;
@@ -12,18 +13,28 @@
     border-bottom: 1px solid #FFF5EE;
     font-size: 26px;
 }
-.Navigation ul
+.Navigation ul,
+.Navigation_2 ul
 {
     display: flex;
 }
-.Navigation li
+.Navigation li,
+.Navigation_2 li
 {
     list-style: none;
     margin-left: auto;
     margin-right: auto;
+}
+.Navigation li
+{
     width: 33%;
 }
-.Navigation a
+.Navigation_2 li
+{
+    width: 25%;
+}
+.Navigation a,
+.Navigation_2 a
 {
     display: block;
     color: black;
@@ -31,11 +42,13 @@
     text-decoration: none;
     border-right: 1px solid #ccc;
 }
-.Navigation li:last-child a
+.Navigation li:last-child a,
+.Navigation_2 li:last-child a
 {
     border-right: none; 
 }
-.Navigation a:hover
+.Navigation a:hover,
+.Navigation_2 a:hover
 {
     animation-name: Select;
     animation-duration: 1s;
