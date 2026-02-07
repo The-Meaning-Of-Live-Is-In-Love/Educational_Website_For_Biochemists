@@ -68,14 +68,11 @@
 }
 .Main_Text
 {
-    margin-left: 550px;
-    margin-right: 100px;
-    --Main-Text-Width: 900px;
-    width: var(--Main-Text-Width);
-    margin-top: 50px;
-    padding: 0px 15px 30px 15px;
+    float: right;
+    width: 73.8%;
+    padding: 0px 30px 15px 30px;
     border: 1px solid #ccc;
-    border-radius: 15px 30px 5px 40px;
+    border-radius: 30px 15px 40px 5px;
     text-align: justify;
     line-height: 150%;
     font-size: 18px;
@@ -101,6 +98,32 @@ p
     overflow-wrap: break-word;
     width: 20%;
     background-color: #FFFAFA;
+}
+.Sidebar a
+{
+    color: black;
+}
+.Sidebar a:hover
+{
+    animation-name: Select_Sidebar;
+    animation-duration: 0s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+@keyframes Select_Sidebar
+{
+    from 
+    {
+        text-decoration: none;
+    }
+    to
+    {
+        text-decoration: underline;
+    }
+}
+.Sidebar a
+{
+    text-decoration: none;
 }
 .Highlighted_Text
 {
